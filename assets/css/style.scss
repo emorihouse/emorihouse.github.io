@@ -3,6 +3,8 @@
 
 $bg-base-color: rgba(239, 239, 234, .5);
 $color-dark: #333;
+$color-highlighter-pink: #ef5777;
+$color-pink: #f53b57;
 
 body {
   background-color: $bg-base-color;
@@ -46,6 +48,18 @@ footer {
 
   .navbar-toggler {
     border: 0;
+  }
+}
+
+a {
+  color: $color-dark;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+
+  &:hover {
+    color: $color-highlighter-pink;
+    text-decoration: none;
   }
 }
 
@@ -140,9 +154,25 @@ footer {
     background: linear-gradient(transparent 60%, #F1A9A0 60%);
     margin-bottom: 1em;
   }
+
   ul {
     list-style: none;
     line-height: 2em;
+    padding: .5rem;
+  }
+
+
+  @media (max-width:767px) {
+    .lead {
+      font-size: calc((100% + 0.25vw) * 0.85);
+      text-align: center;
+    }
+
+    p {
+      font-size: calc((100% + 0.25vw) * 0.75);
+      margin-bottom: .1em;
+      text-align: left;
+    }
   }
 }
 
@@ -240,11 +270,11 @@ footer {
       width: auto;
       color: #fff;
       background-color: #f53b57;
-      border-color: #F62459;
+      border-color: #f53b57;
 
       &:hover {
         background-color: #ef5777;
-        border-color: #E26A6A;
+        border-color: #ef5777;
       }
     }
   }
