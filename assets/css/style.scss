@@ -159,6 +159,7 @@ a {
     list-style: none;
     line-height: 2em;
     padding: .5rem;
+    font-size: .9em;
   }
 
 
@@ -184,6 +185,7 @@ a {
   img {
     width: 80px;
     border-radius: 50%;
+    padding-top: 1em;
   }
 
   .name {
@@ -193,15 +195,15 @@ a {
 
   .profile {
     margin-bottom: .5em;
-    font-size: .9em;
 
     p {
       margin-bottom: 0;
+      font-size: .8em;
     }
   }
 
   .sns_icon a {
-    color: #6C7A89;
+    color: #989898;
   }
 }
 
