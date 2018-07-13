@@ -97,6 +97,10 @@ a {
   word-wrap: break-word;
 }
 
+.description {
+  margin-bottom: 1.5em;
+}
+
 .row-eq-height {
   display: flex;
   flex-wrap: wrap;
@@ -278,6 +282,14 @@ a {
         background-color: #ef5777;
         border-color: #ef5777;
       }
+    }
+  }
+
+  @media (max-width:767px) {
+    p {
+      font-size: calc((100% + 0.25vw) * 0.75);
+      margin-bottom: 0.2em;
+      text-align: left;
     }
   }
 }
