@@ -1,0 +1,21 @@
+---
+layout: default
+title: emorihouse
+---
+
+<div class="container-fluid" id="blog">
+  <h2 class="page-title">Blog</h2>
+
+  <div class="content">
+    <div class="row row-eq-height">
+      {% for post in site.posts %}
+        <div class="col-lg-3 col-md-4 col-sm-6 post">
+          <a href="{{ post.url }}">
+            <img src="{{ post.image }}">
+            <div class="post-title">{{ post.title }}</div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
