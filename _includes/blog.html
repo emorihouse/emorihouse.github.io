@@ -1,0 +1,12 @@
+<div class="row row-eq-height">
+  {% for post in site.posts limit:4 %}
+    <div class="col-md-3 col-sm-6 post">
+      <a href="{{ post.url }}">
+        <img src="{{ post.image }}">
+        <div class="post-title">{{ post.title }}</div>
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
+<a href="{{ base.url }}/blog" class="btn btn-light">ALL POST</a>

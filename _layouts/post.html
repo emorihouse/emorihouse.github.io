@@ -1,0 +1,31 @@
+---
+layout: default
+title: emorihouse
+---
+
+<div class="container-fluid" id="post">
+  <h2 class="page-title text-left">{{page.title}}</h2>
+  <p class="page-date">{{page.date | date: "%Y-%m-%d"}}</p>
+
+  <div class="row page-body">
+    {{page.content}}
+  </div>
+
+  <div class="row page-link">
+    {% if page.next %}
+      <p class="float-left">
+        <a href="{{ page.next.url | relative_url }}">
+          <i class="fas fa-chevron-left fa-2x"></i>
+        </a>
+      </p>
+    {% endif %}
+
+    {% if page.previous %}
+      <p class="text-right link-prev">
+        <a href="{{ page.previous.url | relative_url }}">
+          <i class="fas fa-chevron-right fa-2x"></i>
+        </a>
+      </p>
+    {% endif %}
+  </div>
+</div>
