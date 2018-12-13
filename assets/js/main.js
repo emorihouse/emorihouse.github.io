@@ -3,10 +3,10 @@ var markers = [];
 var infoBalloons = [];
 var markerData = [
   {
-    name: 'ハーバーサイド ゲストハウス 湊',
+    name: 'ゲストハウス 界音',
     icon: './assets/images/emorihouse_marker.png',
-    lat: 33.603186,
-    lng: 130.406397
+    lat: 33.597427,
+    lng: 130.403724
   }, {
     name: "国際コンベンションセンター",
     icon: './assets/images/rubykaigi_marker.png',
@@ -20,7 +20,7 @@ function initMap() {
   var mapLatLng = new google.maps.LatLng({lat: markerData[0]['lat'], lng: markerData[0]['lng']});
   map = new google.maps.Map(document.getElementById('map-canvas'), {
     center: mapLatLng,
-    zoom: 16
+    zoom: 15
   });
 
   // マーカー毎の処理
