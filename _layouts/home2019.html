@@ -1,0 +1,48 @@
+---
+layout: default
+title: emorihouse 2019
+---
+
+{% include 2019/navbar.html %}
+
+<div id="intro" class="container-fluid">
+  <div class="row intro-inner">
+    <img src="/assets/images/emorihouse2018.JPG">
+    <div class="intro-title">
+      <h1></h1>
+    </div>
+  </div>
+</div>
+
+<div id="about" class="container-fluid">
+  <h2 class="area-title">About</h2>
+
+  <div class="text-center content">
+    {% include 2019/about.html %}
+  </div>
+</div>
+
+<!--<div id="blog" class="container-fluid">-->
+  <!--<div class="text-center content">-->
+    <!--{% include blog.html %}-->
+  <!--</div>-->
+<!--</div>-->
+
+<div id="members" class="container-fluid">
+  <h2 class="area-title">Members</h2>
+
+  <div class=" text-center content">
+    {% include 2019/members.html %}
+  </div>
+</div>
+
+<div id="map" class="container-fluid">
+  <h2 class="area-title">Map</h2>
+
+  <div class="content"></div>
+  <div class="row">
+    <div id="map-canvas"></div>
+  </div>
+</div>
+
+{% include 2019/footer.html %}
