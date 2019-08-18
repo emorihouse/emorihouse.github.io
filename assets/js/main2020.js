@@ -36,7 +36,7 @@ function initMap() {
 
     var icon_image = {
       url : markerData[i]['icon'],
-      scaledSize : new google.maps.Size(54, 64)
+      scaledSize : new google.maps.Size(64, 64)
     };
 
     markers[i] = new google.maps.Marker({
