@@ -1,0 +1,222 @@
+---
+title: emorihouse 2020
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{{ page.description | default: site.description | smartify }}">
+
+  <title>{{ site.title | smartify }}</title>
+
+  <!-- Bootstrap core CSS -->
+  {% if site.github %}
+    <link href="{{ site.baseurl }}/dist/css/bootstrap.min.css" rel="stylesheet" integrity="{{ site.cdn.css_hash }}" crossorigin="anonymous">
+  {% else %}
+    <link href="{{ site.baseurl }}/dist/css/bootstrap.css" rel="stylesheet">
+  {% endif %}
+
+  <link rel="stylesheet" href="/assets/css/style2020.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="./assets/images/favicon.ico">
+</head>
+<body>
+  <!--<div style="text-align: center; margin-top: 60px;">-->
+    <!--<img src="/assets/images/emorihouse_marker.png" width="50px">-->
+
+    <!--<h1>emorihouse 2020</h1>-->
+
+    <!--<h5>2020/04/08 - 2020/04/12</h5>-->
+
+    <!--<p>＠ <a href="https://rubykaigi.org/2020">RubyKaigi 2020</a> 会場近くのゲストハウス</p>-->
+  <!--</div>-->
+
+  <nav class="navbar navbar-expand-xl navbar-light">
+    <a class="navbar-brand" href="/">emorihouse</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#map">Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#members">Members</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="header">
+    <!--<p class="site-title-sub">RubyKaigi 2020 in Matzmoto</p>-->
+    <!--<h1 class="site-title">emorihouse 2020</h1>-->
+  </header>
+
+  <section class="about container-fluid" id="about">
+    <h2 class="heading">About</h2>
+    <p class="about-text">
+      女性が RubyKaigi に参加しやすくなるといいなあ、 そんな家主の思いからはじまった エモリハウス。<br />
+      女性の RubyKaigi 参加者たちといっしょに泊まって、わいわいしよう！という企画です。<br />
+      5年目となる エモリハウス 2020 では、新しく別館として「ヤダハウス」が誕生予定です。<br />
+      はじめましての方も常連さんも、いっしょに エモリハウス と ヤダハウス に泊まって、
+      <a href="https://rubykaigi.org/2020" alt="RubyKaigi">RubyKaigi 2020 in Matsumoto</a> に参加しましょう！
+    </p>
+
+    <div class="about-wrapper row">
+      <div class="about-box col-md-4">
+        <p class="about-text">
+          <i class="fas fa-home"></i><br/>
+          <strong>エモリハウス / ヤダハウス</strong><br/>
+          どちらも 松本駅、RubyKaigi 会場の徒歩圏内です。<br/>
+          どちらのハウスになるかは家主におまかせください。
+        </p>
+      </div>
+      <div class="about-box col-md-4">
+        <p class="about-text">
+          <i class="far fa-calendar-alt"></i><br/>
+          <strong>2020/04/08 - 2020/04/12</strong><br/>
+          RubyKaigi の前日チェックイン、<br/>
+          翌日チェックアウトの4泊5日です。<br/>
+          途中参加OKですが、費用は一律4泊5日分になります。
+        </p>
+      </div>
+      <div class="about-box col-md-4">
+        <p class="about-text">
+          <i class="fas fa-yen-sign"></i><br/>
+          <strong>20,000円くらい</strong><br/>
+          4泊5日分の費用です。<br/>
+          ゲストハウスごとの人数割になりますので、<br/>
+          メンバーが確定してから費用も確定します。<br/>
+          領収書発行可能です。
+        </p>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <a class="button button-showy" href="#contact">お申し込みはこちらから</a>
+    </div>
+  </section>
+
+  <section class="map container-fluid" id="map">
+    <h2 class="heading">Map</h2>
+    <div class="row">
+      <div id="map-canvas"></div>
+    </div>
+  </section>
+
+  <section class="members container-fluid" id="members">
+    <h2 class="heading">Members</h2>
+    <div class="members-wrapper row">
+      <div class="member-box col-md-2 col-6">
+        <a href="https://twitter.com/emorima">
+          <img class="member-image" src="http://www.gravatar.com/avatar/5c72a69ad460347a01aa05de9915c3e0" alt="emorima">
+        </a>
+        <div class="member-title">emorima</div>
+        <p class="member-text">
+          エモリハウス家主。<br/>
+          酒とRubyと、時々、(福山)雅治。Asakusa.rb, Rails Girls, 千鳥足.rb
+        </p>
+      </div>
+      <div class="member-box col-md-2 col-6">
+        <a href="https://twitter.com/yadaita">
+          <img class="member-image" src="https://pbs.twimg.com/profile_images/378800000561709251/efc8828aff9cb20e8e922923de9e878b_400x400.jpeg" alt="yadaita">
+        </a>
+        <div class="member-title">yadaita</div>
+        <p class="member-text">
+          ヤダハウス家主。<br/>
+          くまモン好きのRubyist。<br/>
+          今年は長野なのでアルクマを愛でることを画策中。
+        </p>
+      </div>
+    </div>
+    <div class="members-wrapper row">
+      <div class="member-box col-md-2 col-6">
+        <a href="https://twitter.com/youchan">
+          <img class="member-image" src="https://pbs.twimg.com/profile_images/1629697059/youchan_square_bigger.jpg" alt="">
+        </a>
+        <div class="member-title">youchan</div>
+      </div>
+      <div class="member-box col-md-2 col-6">
+        <a href="https://twitter.com/ta8co">
+          <img class="member-image" src="https://pbs.twimg.com/profile_images/822444944409247745/M7xQq8py_400x400.jpg" alt="">
+        </a>
+        <div class="member-title">ta8co</div>
+      </div>
+      <div class="member-box col-md-2 col-6">
+        <a href="https://twitter.com/Ossan2go">
+          <img class="member-image" src="https://pbs.twimg.com/profile_images/1031936319759380480/mmzDxnVr_400x400.jpg" alt="">
+        </a>
+        <div class="member-title">Ossan2go</div>
+      </div>
+      <div class="member-box col-md-2 col-6">
+        <a href="https://twitter.com/makicamel">
+          <img class="member-image" src="https://pbs.twimg.com/profile_images/976286019178786818/6hhdioYr.jpg" alt="">
+        </a>
+        <div class="member-title">makicamel</div>
+      </div>
+      <div class="member-box col-md-2 col-6">
+        <a href="https://twitter.com/aoirolamp">
+          <img class="member-image" src="https://pbs.twimg.com/profile_images/570144165409738752/UKbc9xT0_400x400.png" alt="">
+        </a>
+        <div class="member-title">aoirolamp</div>
+      </div>
+      <div class="member-box col-md-2 col-6">
+        <a href="https://twitter.com/anzu_mmm">
+          <img class="member-image" src="https://www.gravatar.com/avatar/7af084df2355b0c15aae1f7b57969dbd" alt="">
+        </a>
+        <div class="member-title">kiryuanzu</div>
+      </div>
+      <div class="member-box col-md-2 col-6">
+        <a href="https://twitter.com/sz_mika">
+          <img class="member-image" src="https://pbs.twimg.com/profile_images/928629287866982400/vh2grsHb.jpg" alt="">
+        </a>
+        <div class="member-title">suzumika</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact container-fluid" id="contact">
+    <h2 class="heading">Contact us</h2>
+    <form class="contact-form" action="https://getsimpleform.com/messages?form_api_token=305abb354cdb34b24b27a35c31729334" method="post">
+      <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+      <input type='hidden' name='redirect_to' value='http://emori.house' />
+
+      <input type="text" name="name" placeholder="name">
+      <input type="email" name="email" placeholder="email">
+      <input type="text" name="tw_account" placeholder="twitter account">
+      <textarea name="message" placeholder="messages"></textarea>
+      <input type="submit" value="SEND">
+    </form>
+  </section>
+
+  <section class="footer">
+    © emorihouse
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+  {%- if site.github -%}
+    <script src="{{ site.baseurl }}/dist/js/bootstrap.min.js" integrity="{{ site.cdn.js_hash }}" crossorigin="anonymous"></script>
+  {%- else -%}
+    <script src="{{ site.baseurl }}/dist/js/bootstrap.js"></script>
+  {%- endif -%}
+
+  <script src="{{ site.baseurl }}/assets/js/main2020.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMFnWW75vOK-_E64sCZtnnSMNDTmWo9ZM&callback=initMap"></script>
+</body>
+</html>
+
