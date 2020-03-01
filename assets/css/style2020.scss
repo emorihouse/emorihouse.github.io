@@ -18,7 +18,7 @@ html {
 body {
   color: #fff;
   text-align: center;
-  text-color: $dark-color;
+  color: $dark-color;
   font-size: 1.4rem;
   font-family: 'Nunito Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
 }
@@ -127,6 +127,25 @@ body {
   bottom: 5px;
 }
 
+.notification {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 700px;
+  background-color: rgba(255, 204, 204, 0.5);
+  border: 1px solid rgba(255, 204, 204, 0.5);
+  border-radius: 4px;
+
+  p {
+    margin: 20px;
+    line-height: 2;
+    text-align: left;
+    font-weight: 500;
+  }
+}
+
 .about-text {
   margin: 30px 0;
   line-height: 2.5;
@@ -204,6 +223,7 @@ body {
 .contact {
   background-color: $dark-color;
   padding: 80px 30px 150px;
+  color: #fff;
 }
 .contact-form {
   width: 70%;
