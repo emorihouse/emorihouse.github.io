@@ -3,16 +3,16 @@ var markers = [];
 var infoBalloons = [];
 var markerData = [
   {
-    name: 'エモリハウス<br/>(東家)',
-    icon: './assets/images/marker_emorihouse.png',
-    lat: 36.234960,
-    lng: 137.973843
+    name: '基準地点',
+    icon: '',
+    lat: 36.234672,
+    lng: 137.969558
   },
   {
-    name: "ヤダハウス<br/>(minka house)",
-    icon: './assets/images/marker_yadahouse.png',
-    lat: 36.231012,
-    lng: 137.972364
+    name: 'エモリハウス',
+    icon: './assets/images/marker_emorihouse.png',
+    lat: 36.238292,
+    lng: 137.964377
   },
   {
     name: "まつもと市民芸術館",
