@@ -18,7 +18,7 @@ html {
 body {
   color: #fff;
   text-align: center;
-  text-color: $dark-color;
+  color: $dark-color;
   font-size: 1.4rem;
   font-family: 'Nunito Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
 }
@@ -135,15 +135,14 @@ body {
   margin: auto;
   max-width: 700px;
   background-color: rgba(255, 204, 204, 0.5);
-  padding: 12px;
   border: 1px solid rgba(255, 204, 204, 0.5);
   border-radius: 4px;
 
   p {
-    margin: 2;
+    margin: 20px;
     line-height: 2;
     text-align: left;
-    font-weight: 600;
+    font-weight: 500;
   }
 }
 
