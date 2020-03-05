@@ -59,3 +59,26 @@ function markerEvent(i) {
     infoBalloons[i].open(map, markers[i]);
   });
 }
+
+// ========================================
+// reCAPTCHA v2
+// ========================================
+var onloadCallback = function () {
+  grecaptcha.render('check-g-recaptcha', {
+    'sitekey': '6LdX194UAAAAAOkULF6s-zKHFWtYnv-xiGakK3vx',
+    'callback': verifyCallback,
+    'expired-callback': failCallback
+  });
+};
+var verifyCallback = function (response) {
+  var button = document.getElementById('btn_send');
+  if (response) {
+    button.disabled = false;
+  } else {
+    button.disabled = true;
+  }
+};
+var failCallback = function (response) {
+  var button = document.getElementById('btn_send');
+  button.disabled = true;
+};
