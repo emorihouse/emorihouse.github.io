@@ -28,6 +28,8 @@ title: emorihouse 2020
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700&display=swap" rel="stylesheet">
 
   <link rel="icon" href="./assets/images/favicon.ico">
+
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
 </head>
 <body>
   <!--<div style="text-align: center; margin-top: 60px;">-->
@@ -233,7 +235,10 @@ title: emorihouse 2020
       <input type="email" name="email" placeholder="email" required>
       <input type="text" name="tw_account" placeholder="twitter account" required>
       <textarea name="message" placeholder="messages" required></textarea>
-      <input type="submit" value="SEND">
+
+      <div id="check-g-recaptcha" class='g-recaptcha'></div>
+
+      <input type="submit" value="SEND" id='btn_send' disabled>
     </form>
   </section>
 
