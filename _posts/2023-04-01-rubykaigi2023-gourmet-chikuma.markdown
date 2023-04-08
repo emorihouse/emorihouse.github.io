@@ -7,10 +7,10 @@ permalink: rubykaigi2023_gourmet_chikuma
 <div class="container">
   <h3 id="chikuma">🍶 ちくま</h3>
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
       <img src="/assets/images/rubykaigi2023_gourmetmap/chikuma.jpg" class="hand-write">
     </div>
-    <div class="col-6">
+    <div class="col-md-6">
       <ul>
 		<li>おつまみ少なめ</li>
 		<li>おちょこがデカイ!!（一合？）</li>

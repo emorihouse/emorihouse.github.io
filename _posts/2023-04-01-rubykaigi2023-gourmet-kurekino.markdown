@@ -7,10 +7,10 @@ permalink: rubykaigi2023_gourmet_kurekino
 <div class="container">
   <h3 id="kurekino"><img src="/assets/images/rubykaigi2023_gourmetmap/soba.png" class="ico-title">くれ木野</h3>
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
       <img src="/assets/images/rubykaigi2023_gourmetmap/kurekino.jpg" class="hand-write">
     </div>
-    <div class="col-6">
+    <div class="col-md-6">
       <ul>
         <li>お茶はそば茶、うまい</li>
         <li>大海老、大穴子　島根大田市ほどではない</li>

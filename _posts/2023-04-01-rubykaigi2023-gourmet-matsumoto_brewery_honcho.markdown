@@ -7,10 +7,10 @@ permalink: rubykaigi2023_gourmet_matsumoto_brewery_honcho
 <div class="container">
   <h3 id="matsumoto_brewery_honcho">🍺 松本ブルワリータップルーム 本町店</h3>
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
       <img src="/assets/images/rubykaigi2023_gourmetmap/matsumoto_brewery_honcho.jpg" class="hand-write">
     </div>
-    <div class="col-6">
+    <div class="col-md-6">
       <ul>
 		<li>電子決済OK</li>
 		<li>カードはPASOMO（補足：カード支払いと伝えて、間違えてPASMO出した）</li>

@@ -7,10 +7,10 @@ permalink: rubykaigi2023_gourmet_fukazake
 <div class="container">
   <h3 id="fukazake">🍶 深酒</h3>
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
       <img src="/assets/images/rubykaigi2023_gourmetmap/fukazake.jpg" class="hand-write">
     </div>
-    <div class="col-6">
+    <div class="col-md-6">
       <ul>
 		<li>人気のお店!!!!</li>
 		<li>予約必須</li>

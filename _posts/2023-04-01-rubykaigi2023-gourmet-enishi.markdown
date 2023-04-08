@@ -7,10 +7,10 @@ permalink: rubykaigi2023_gourmet_enishi
 <div class="container">
   <h3 id="enishi">🍶 縁（えにし）</h3>
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
       <img src="/assets/images/rubykaigi2023_gourmetmap/enishi.jpg" class="hand-write">
     </div>
-    <div class="col-6">
+    <div class="col-md-6">
       <ul>
 		<li>ちょっと勇気の必要な通りを抜けて...</li>
 		<li>馬刺しおいしい</li>

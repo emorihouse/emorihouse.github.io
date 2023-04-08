@@ -7,10 +7,10 @@ permalink: rubykaigi2023_gourmet_alps
 <div class="container">
   <h3 id="alps"><img src="/assets/images/rubykaigi2023_gourmetmap/soba.png" class="ico-title">あるぷす</h3>
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
       <img src="/assets/images/rubykaigi2023_gourmetmap/alps.jpg" class="hand-write">
     </div>
-    <div class="col-6">
+    <div class="col-md-6">
       <ul>
 		<li>水に漬けて食べる!?</li>
 		<li>コシがあって食べごたえがある!</li>

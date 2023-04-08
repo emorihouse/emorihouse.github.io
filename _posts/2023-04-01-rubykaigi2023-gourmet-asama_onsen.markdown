@@ -7,9 +7,9 @@ permalink: rubykaigi2023_gourmet_asama_onsen
 <div class="container">
   <h3 id="asama_onsen">♨  浅間温泉</h3>
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
       <img src="/assets/images/rubykaigi2023_gourmetmap/asama_onsen.jpg" class="hand-write"> </div>
-    <div class="col-6">
+    <div class="col-md-6">
       <ul>
 		<li>露天風呂が気持ちいい（ホットプラザ）</li>
 		<li>温泉以外の観光はあまりない</li>

@@ -7,10 +7,10 @@ permalink: rubykaigi2023_gourmet_matsumoto_castle
 <div class="container">
   <h3 id="matsumoto_castle">🏯 松本城</h3>
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
       <img src="/assets/images/rubykaigi2023_gourmetmap/matsumoto_castle.jpg" class="hand-write">
     </div>
-    <div class="col-6">
+    <div class="col-md-6">
       <ul>
 		<li>天守閣40分待ち</li>
 		<li>混んでる</li>

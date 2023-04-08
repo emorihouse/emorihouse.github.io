@@ -7,10 +7,10 @@ permalink: rubykaigi2023_gourmet_sake_pub
 <div class="container">
   <h3 id="sake_pub">🍶 SAKE PUB</h3>
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
       <img src="/assets/images/rubykaigi2023_gourmetmap/sake_pub.jpg" class="hand-write">
     </div>
-    <div class="col-6">
+    <div class="col-md-6">
       <ul>
 		<li>長野の日本酒がたくさんある　種類が豊富</li>
 		<li>ポテピポパ（補足：ピーマンにポテトサラダを詰めたおつまみの名前です）</li>
