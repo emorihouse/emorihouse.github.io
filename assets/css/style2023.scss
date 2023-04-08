@@ -452,6 +452,17 @@ a {
   .ico-title {
     width: 30px;
   }
+
+  /* 行ったお店一覧用 */
+  h3 {
+    color: $color-dark;
+    font-weight: 500;
+    font-size: 1.5em;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
 }
 
 #shop-info {
@@ -469,5 +480,20 @@ a {
   }
   .ico-title {
     width: 30px;
+  }
+
+  /* コメント用 */
+  ul {
+    li {
+      list-style-type: none;
+    }
+
+    li:before {
+      font-family: "Font Awesome 5 Free";
+      content: "\f075";
+      position: absolute;
+      left : 1em;
+      color: #4d4d4d;
+    }
   }
 }
