@@ -14,7 +14,7 @@ permalink: rubykaigi2023_gourmet_kyu_kaichi_school
       <ul>
         <li>天使のコレジャナイ感</li>
         <li>改修中 RubyKaigi期間中も工事中っぽい</li>
-        <li>天使の羽は茶色...なぜなのか ← まんがだと堕天使になると羽は黒くなる? by A</li></li>
+        <li>天使の羽は茶色...なぜなのか ← まんがだと堕天使になると羽は黒くなる? by A</li>
       </ul>
     </div>
   </div>

@@ -21,7 +21,7 @@ permalink: rubykaigi2023_gourmet_matsumoto_brewery_honcho
 		<li>キャッスル スタウト ホップがきいてる　ちょっとビター　重くない</li>
 		<li>Traditional Scotch Ale 6.5%だけど ぜんぜん重くない! バランスのよいモルト、ロースト感　うまい</li>
 		<li>南信州のゲストビール　スプリングセッション! 麦のかおりすごい　とにかく軽い! ホップもひかえめ（チェイサー？）</li>
-		<li>GUEST 南信州　飲み口さわやか　軽いよー
+		<li>GUEST 南信州　飲み口さわやか　軽いよー</li>
       </ul>
     </div>
   </div>
