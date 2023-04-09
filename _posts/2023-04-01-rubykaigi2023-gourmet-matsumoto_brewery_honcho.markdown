@@ -12,6 +12,7 @@ permalink: rubykaigi2023_gourmet_matsumoto_brewery_honcho
     </div>
     <div class="col-md-6">
       <ul>
+		<li>言わずと知れた、松本のブルワリー。間違いがない。</li>
 		<li>電子決済OK</li>
 		<li>カードはPASOMO（補足：カード支払いと伝えて、間違えてPASMO出した）</li>
 		<li>焼けた肉のいいにおい</li>
