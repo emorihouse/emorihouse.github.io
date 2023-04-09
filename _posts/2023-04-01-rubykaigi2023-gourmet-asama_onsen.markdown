@@ -7,9 +7,9 @@ permalink: rubykaigi2023_gourmet_asama_onsen
 <div class="container">
   <h3 id="asama_onsen">♨  浅間温泉</h3>
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
       <img src="/assets/images/rubykaigi2023_gourmetmap/asama_onsen.jpg" class="hand-write"> </div>
-    <div class="col-6">
+    <div class="col-md-6">
       <ul>
 		<li>露天風呂が気持ちいい（ホットプラザ）</li>
 		<li>温泉以外の観光はあまりない</li>
@@ -17,7 +17,7 @@ permalink: rubykaigi2023_gourmet_asama_onsen
 		<li>２階 キュウケイ室は今回は行ってないけど楽しみな場所</li>
 		<li>松本駅からバスで15〜20分だけどバスが少ない</li>
 		<li>帰りは運命に任せる（補足：この後お店にいけるかどうかバスの時間次第だったのでした）</li>
-		<li>泉質は問うな
+		<li>泉質は問うな</li>
       </ul>
     </div>
   </div>

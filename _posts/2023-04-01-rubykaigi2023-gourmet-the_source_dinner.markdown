@@ -7,10 +7,10 @@ permalink: rubykaigi2023_gourmet_the_source_dinner
 <div class="container">
   <h3 id="the_source_dinner">🍺 The Source Dinner</h3>
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
       <img src="/assets/images/rubykaigi2023_gourmetmap/the_source_dinner.jpg" class="hand-write">
     </div>
-    <div class="col-6">
+    <div class="col-md-6">
       <ul>
 		<li>ビールビール🍺!</li>
 		<li>HARDCIDERおいしい!! ビールじゃない、シードルでもない!</li>

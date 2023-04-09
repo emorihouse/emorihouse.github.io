@@ -7,10 +7,10 @@ permalink: rubykaigi2023_gourmet_mt_desert_island_ice_cream
 <div class="container">
   <h3 id="mt_desert_island_ice_cream">🍨 Mt Desert Island Ice Cream</h3>
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
       <img src="/assets/images/rubykaigi2023_gourmetmap/mt_desert_island_ice_cream.jpg" class="hand-write">
     </div>
-    <div class="col-6">
+    <div class="col-md-6">
       <ul>
 		<li>真澄酒粕いちご ほんのりお酒感</li>
 		<li>信州スウィートクリーム 甘さひかえめのスッキリした味</li>

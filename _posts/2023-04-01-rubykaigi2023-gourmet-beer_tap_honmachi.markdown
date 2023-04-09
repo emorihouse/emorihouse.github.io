@@ -7,10 +7,10 @@ permalink: rubykaigi2023_gourmet_beer_tap_honmachi
 <div class="container">
   <h3 id="beer_tap_honmachi">🍺 Beer Tap Honmachi</h3>
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
       <img src="/assets/images/rubykaigi2023_gourmetmap/beer_tap_honmachi.jpg" class="hand-write">
     </div>
-    <div class="col-6">
+    <div class="col-md-6">
       <ul>
 		<li>席数少なめ（スタンド席も少しあり）</li>
 		<li>早い時間に閉まるので注意</li>

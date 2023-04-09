@@ -7,10 +7,10 @@ permalink: rubykaigi2023_gourmet_cafe_sweet
 <div class="container">
   <h3 id="cafe_sweet">🍞 CAFE SWEET 縄手本店</h3>
   <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
       <img src="/assets/images/rubykaigi2023_gourmetmap/cafe_sweet.jpg" class="hand-write">
     </div>
-    <div class="col-6">
+    <div class="col-md-6">
       <ul>
 		<li>トーストがふわふわ</li>
 		<li>厚めだけどいける</li>
