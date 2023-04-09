@@ -19,6 +19,9 @@ permalink: rubykaigi2023_gourmet_sake_pub
 		<li>マスターの知識がすごい!</li>
 		<li>めずらしいお酒がのめる!</li>
 		<li>Deep Fried Tofu 最高　うまい</li>
+		<li>海外のお客さんが結構訪れるらしい。</li>
+		<li>お通し?サービス?で出てきた花ワサビが美味しすぎた。永遠に食べていられるやつ。</li>
+		<li>家の近くにあったら、確実に入り浸りますね...</li>
       </ul>
     </div>
   </div>

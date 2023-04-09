@@ -20,8 +20,8 @@ permalink: rubykaigi2023_gourmet_fukazake
 		<li>花わさび&キクイモ天ぷら</li>
 		<li>混んでるよー!</li>
 		<li>not only matsumoto（補足：お酒が松本(長野)だけじゃないと言いたい)</li>
+		<li>確か二時間制</li>
       </ul>
     </div>
   </div>
 </div>                                                                                                                                     
-
