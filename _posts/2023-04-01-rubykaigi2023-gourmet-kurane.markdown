@@ -8,7 +8,7 @@ permalink: rubykaigi2023_gourmet_kurane
   <h3 id="kurane">🍶 蔵音</h3>
   <div class="row">
     <div class="col-md-6">
-      <img src="/assets/images/rubykaigi2023_gourmetmap/no-image.jpg" class="hand-write">
+      <img src="/assets/images/rubykaigi2023_gourmetmap/kurane.jpg" class="hand-write">
     </div>
     <div class="col-md-6">
       <ul>

@@ -8,7 +8,7 @@ permalink: rubykaigi2023_gourmet_hakaisou_mujo
   <h3 id="hakaisou">&#x1f468;&#x200d;&#x1f9b2; 破戒僧酒場MUJO</h3>
   <div class="row">
     <div class="col-md-6">
-      <img src="/assets/images/rubykaigi2023_gourmetmap/no-image.jpg" class="hand-write">
+      <img src="/assets/images/rubykaigi2023_gourmetmap/mujo.jpg" class="hand-write">
     </div>
     <div class="col-md-6">
       <ul>
