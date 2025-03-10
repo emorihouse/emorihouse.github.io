@@ -1,0 +1,86 @@
+---
+title: emorihouse 2025
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{{ page.description | default: site.description | smartify }}">
+
+  <title>{{ site.title | smartify }}</title>
+
+  <!-- Bootstrap core CSS -->
+  {% if site.github %}
+    <link href="{{ site.baseurl }}/dist/css/bootstrap.min.css" rel="stylesheet" integrity="{{ site.cdn.css_hash }}" crossorigin="anonymous">
+  {% else %}
+    <link href="{{ site.baseurl }}/dist/css/bootstrap.css" rel="stylesheet">
+  {% endif %}
+
+  <link href="/assets/css/style2023.css" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+  <link rel="icon" href="./assets/images/favicon.ico">
+
+  <script>
+    function secretaddress() {
+      var ma = String.fromCharCode(101,109,111,114,105,104,111,117,115,101,64,103,109,97,105,108,46,99,111,109);
+      var mt = String.fromCharCode(109,97,105,108,116,111,58);
+      document.write('<a href="'+ mt + ma + '">' + ma + '</a>');
+    }
+  </script>
+</head>
+<body>
+  {% include 2025/navbar.html %}
+
+  <div id="intro" class="container-fluid">
+    <div class="row intro-inner">
+      <img src="/assets/images/emorihouse2023.jpeg">
+      <div class="intro-title">
+        <h1></h1>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="container-fluid">
+    <h2 class="area-title">About</h2>
+
+    <div class="text-center content">
+      {% include 2025/about.html %}
+    </div>
+  </div>
+
+  <div id="members" class="container-fluid">
+    <h2 class="area-title">Members</h2>
+
+    <div class=" text-center content">
+      {% include 2025/members.html %}
+    </div>
+  </div>
+
+  <div id="map" class="container-fluid">
+    <h2 class="area-title">Map</h2>
+
+    <div class="content"></div>
+    <div class="row">
+      <div id="map-canvas"></div>
+    </div>
+  </div>
+
+  {% include 2025/footer.html %}
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+  {%- if site.github -%}
+    <script src="{{ site.baseurl }}/dist/js/bootstrap.min.js" integrity="{{ site.cdn.js_hash }}" crossorigin="anonymous"></script>
+  {%- else -%}
+    <script src="{{ site.baseurl }}/dist/js/bootstrap.js"></script>
+  {%- endif -%}
+
+  <script src="{{ site.baseurl }}/assets/js/main2025.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMFnWW75vOK-_E64sCZtnnSMNDTmWo9ZM&callback=initMap"></script>
+</body>
+</html>
